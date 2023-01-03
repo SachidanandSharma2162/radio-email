@@ -50,9 +50,7 @@ app.post("/failure",function(req,res){
   res.redirect("/");
 });
 
-app.listen(process.env.PORT||3000, function() {//port will run on both locally and at heroku
-  console.log("Server is running on port 3000");
-});
+
 
 
 
